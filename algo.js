@@ -10,11 +10,12 @@
  */
 function maskify(cc) {
     if (cc.length > 4) {
+        console.log("**** In If ****")
         for (let idx = 0; idx < cc.length-4; idx++) {
-            cc[idx] = "#"
+            cc[idx] = "#";
         }        
     }
-    return output;
+    return cc;
 }
 
-console.log("maskify 4556364607935616:", maskify("4556364607935616"));s
+console.log("maskify 4556364607935616:", maskify("4556364607935616"));
