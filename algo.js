@@ -3,3 +3,11 @@
 //  By: Virgilio D. Cabading Jr.
 ////////////////////////////////////////////////////////////////
 
+/**
+ * maskify function
+ * @param {string} unMaskedString 
+ * @returns a masked string
+ */
+function maskify(unMaskedString) {
+
+}
