@@ -13,6 +13,7 @@ function maskify(cc) {
         console.log("**** In If ****")
         for (let idx = 0; idx < cc.length-4; idx++) {
             cc[idx] = "#";
+            console.log(cc[idx]);
         }        
     }
     return cc;
